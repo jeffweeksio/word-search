@@ -1,3 +1,4 @@
+# word-search
 Jeff Weeks
 CSC 172: The Science of Data Structures
 University of Rochester
@@ -31,10 +32,7 @@ Conflicts were handled through separate chaining.  Upon construction of my hash 
 with an empty linked list.  When a word was inserted it was simply added at the head of the index's linked
 list.
 
-v==== Extra Credit ====v
-
-If there's anyway I could get extra credit, I really tried to go above and beyond 
-and I could use it after a sub-par Project 2.
+v==== Extras ====v
 
 *analyzeTable() method: Provides comprehensive analysis of Hash Table efficiency.
 *Statistics included:
@@ -50,37 +48,19 @@ and I could use it after a sub-par Project 2.
 	dispersed distribution of hashed values.
 *Allowed for puzzles with rectangular, or I believe even irregular, dimensions.  I haven't
 	proven this, but I believe this will work on any left justified puzzle shape.
-		
-
 
 v==== Files Included ====v
 
-\
-dictionary.txt				dictionary file
-infile.txt					input file
-outfile.txt					output file	 	 
-README.txt									 
-puzzle.txt					contains puzzle as imported from infile
-tableOccupancy.txt			contains bit string representation of my hash table's 
-							occupancy
-
-*actually 2 copies of the above, it seems eclipse wants them in the parent 
- folder and javac wants them in the src file, so they are in both places 
- just to be sure.
-
-\src
-HashChain.java				linked list class for separate chaining in the hash table
-HashNode.java				node class for linked lists
-HashTable.java				hash table class
-MyLinkedList.java			linked list interface
-Project3.java				main
-
-\bin
-HashChain.class
-HashNode.class
-HashTable.class
-MyLinkedList.class
-Project3.class
+dictionary.txt			dictionary file
+infile.txt			input file
+outfile.txt			output file	 	 
+puzzle.txt			contains puzzle as imported from infile
+tableOccupancy.txt		contains bit string representation of my hash table's occupancy
+HashChain.java			linked list class for separate chaining in the hash table
+HashNode.java			node class for linked lists
+HashTable.java			hash table class
+MyLinkedList.java		linked list interface
+Project3.java			main
 
 v==== Running instructions ====v
 
@@ -119,12 +99,9 @@ optionelaurccauditqk
 fmjskfkshkqjxoezafcd
 zdskzihnnljrxkjlhzjy
 
-
-
 v==== Console output sample ====v
 
-See tableOccupancy.txt for a bit string representation 
-	of vacant and occupied hash table indexes.
+See tableOccupancy.txt for a bit string representation of vacant and occupied hash table indexes.
 
 Indexes occupied: 	53.320797%
 Longest chain length: 	21
@@ -134,5 +111,3 @@ Table size: 		109537
 Puzzle dimensions: 	20 x 20
 
 See puzzle.txt for imported version of the puzzle.
-
-
